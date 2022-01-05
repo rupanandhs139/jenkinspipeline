@@ -4,6 +4,6 @@ node {
      git 'https://github.com/rupanandhs139/2021paytm-fridge.git'
         }
         stage("maven build"){
-            sh 'maven clean install'
+            sh 'mvn clean install'
         }
 }
